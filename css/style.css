@@ -710,11 +710,18 @@
   justify-content: space-between;
   flex-direction: column;
 }
+#faq .faq__faqA__faqG__faqA1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
 #faq .faq__faqA__faqG__faqA1__faqI {
   width: 590px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 #faq .faq__faqA__faqG__faqA1__faqI__faqH2 {
   font-family: "Inter", sans-serif;
@@ -870,6 +877,192 @@
   height: 2px;
   background: black;
   margin: 5px;
+}
+
+.checkbox {
+  display: none;
+}
+
+#modalWindow:checked ~ .modal {
+  display: block;
+}
+
+.modal {
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+
+.iconL {
+  transform: rotate(180deg);
+}
+
+.aaaaa {
+  display: flex;
+  justify-content: end;
+}
+
+.faq__faqA__faqG__faqA1__modal {
+  width: 300px;
+  height: 400px;
+  background: grey;
+  display: none;
+}
+
+.checkbox {
+  display: none;
+}
+
+#modalWindow1:checked ~ .modal {
+  display: block;
+}
+
+.modal {
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+
+.iconL {
+  transform: rotate(180deg);
+}
+
+.aaaaa {
+  display: flex;
+  justify-content: end;
+}
+
+.faq__faqA__faqG__faqA1__modal {
+  width: 300px;
+  height: 400px;
+  background: grey;
+  display: none;
+}
+
+.checkbox {
+  display: none;
+}
+
+#modalWindow2:checked ~ .modal {
+  display: block;
+}
+
+.modal {
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+
+.iconL {
+  transform: rotate(180deg);
+}
+
+.aaaaa {
+  display: flex;
+  justify-content: end;
+}
+
+.faq__faqA__faqG__faqA1__modal {
+  width: 300px;
+  height: 400px;
+  background: grey;
+  display: none;
+}
+
+.checkbox {
+  display: none;
+}
+
+#modalWindow3:checked ~ .modal {
+  display: block;
+}
+
+.modal {
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+
+.iconL {
+  transform: rotate(180deg);
+}
+
+.aaaaa {
+  display: flex;
+  justify-content: end;
+}
+
+.faq__faqA__faqG__faqA1__modal {
+  width: 300px;
+  height: 400px;
+  background: grey;
+  display: none;
+}
+
+.checkbox {
+  display: none;
+}
+
+#modalWindow4:checked ~ .modal {
+  display: block;
+}
+
+.modal {
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+
+.iconL {
+  transform: rotate(180deg);
+}
+
+.aaaaa {
+  display: flex;
+  justify-content: end;
+}
+
+.faq__faqA__faqG__faqA1__modal {
+  width: 300px;
+  height: 400px;
+  background: grey;
+  display: none;
+}
+
+.checkbox {
+  display: none;
+}
+
+#modalWindow5:checked ~ .modal {
+  display: block;
+}
+
+.modal {
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+
+.iconL {
+  transform: rotate(180deg);
+}
+
+.aaaaa {
+  display: flex;
+  justify-content: end;
+}
+
+.faq__faqA__faqG__faqA1__modal {
+  width: 300px;
+  height: 400px;
+  background: grey;
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

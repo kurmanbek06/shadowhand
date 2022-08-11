@@ -721,11 +721,16 @@
         justify-content: space-between;
         flex-direction: column;
         &__faqA1{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
           &__faqI{
             width: 590px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-direction: column;
             &__faqH2{
               font-family: 'Inter', sans-serif;
               font-style: normal;
@@ -745,6 +750,14 @@
     &__faqQ{
       margin: 215px 0 0 0;
       &__faqA1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 192px;
+        height: 192px;
+        border-radius: 110px;
+        box-sizing: border-box;
+        background: #EF3959;
         &__faqA1H2{
           width: 107px;
           display: flex;
@@ -756,14 +769,6 @@
           font-size: 30px;
           color: #FFFFFF;
         }
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 192px;
-        height: 192px;
-        border-radius: 110px;
-        box-sizing: border-box;
-        background: #EF3959;
       }
       &__faqA2{
         margin:  0 0 0 -180px;
@@ -891,3 +896,166 @@
   background: black;
   margin: 5px;
 }
+.checkbox{
+  display: none;
+}
+#modalWindow:checked~.modal{
+  display: block;
+}
+.modal{
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+.iconL{
+  transform: rotate(180deg);
+}
+.aaaaa{
+  display: flex;
+  justify-content: end;
+}
+.faq__faqA__faqG__faqA1{
+  &__modal{
+    width: 300px;
+    height: 400px;
+    background: grey;
+    display: none;
+  }
+}
+.checkbox{
+  display: none;
+}
+#modalWindow1:checked~.modal{
+  display: block;
+}
+.modal{
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+.iconL{
+  transform: rotate(180deg);
+}
+.aaaaa{
+  display: flex;
+  justify-content: end;
+}
+.faq__faqA__faqG__faqA1{
+  &__modal{
+    width: 300px;
+    height: 400px;
+    background: grey;
+    display: none;
+  }
+}
+.checkbox{
+  display: none;
+}
+#modalWindow2:checked~.modal{
+  display: block;
+}
+.modal{
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+.iconL{
+  transform: rotate(180deg);
+}
+.aaaaa{
+  display: flex;
+  justify-content: end;
+}
+.faq__faqA__faqG__faqA1{
+  &__modal{
+    width: 300px;
+    height: 400px;
+    background: grey;
+    display: none;
+  }
+}
+.checkbox{
+  display: none;
+}
+#modalWindow3:checked~.modal{
+  display: block;
+}
+.modal{
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+.iconL{
+  transform: rotate(180deg);
+}
+.aaaaa{
+  display: flex;
+  justify-content: end;
+}
+.faq__faqA__faqG__faqA1{
+  &__modal{
+    width: 300px;
+    height: 400px;
+    background: grey;
+    display: none;
+  }
+}
+.checkbox{
+  display: none;
+}
+#modalWindow4:checked~.modal{
+  display: block;
+}
+.modal{
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+.iconL{
+  transform: rotate(180deg);
+}
+.aaaaa{
+  display: flex;
+  justify-content: end;
+}
+.faq__faqA__faqG__faqA1{
+  &__modal{
+    width: 300px;
+    height: 400px;
+    background: grey;
+    display: none;
+  }
+}
+.checkbox{
+  display: none;
+}
+#modalWindow5:checked~.modal{
+  display: block;
+}
+.modal{
+  width: 600px;
+  height: 80px;
+  background: grey;
+  display: none;
+}
+.iconL{
+  transform: rotate(180deg);
+}
+.aaaaa{
+  display: flex;
+  justify-content: end;
+}
+.faq__faqA__faqG__faqA1{
+  &__modal{
+    width: 300px;
+    height: 400px;
+    background: grey;
+    display: none;
+  }
+}
+
