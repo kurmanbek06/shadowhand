@@ -818,4 +818,58 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
+.burgerMenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .burgerMenu {
+    display: block;
+  }
+  .menu__menuA__menuT {
+    display: none;
+  }
+}
+.clickBurger {
+  margin-left: 900px;
+  position: absolute;
+  transition: all 0.2s linear;
+}
+
+#click:checked ~ .clickBurger {
+  margin-left: -150px;
+}
+
+.click__input {
+  display: none;
+}
+
+.menuTitle {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.burgerMenuClick {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  background: grey;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.burgerLiner {
+  width: 30px;
+  height: 2px;
+  background: black;
+  margin: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
